@@ -16,3 +16,8 @@ This project focuses on creating an intelligent two-wheel robotic system that ca
 - WiFi connectivity for remote control
 - Thonny IDE
 
+## Summary
+
+- The robot car is built with an ultrasonic sensor to measure distance. If there is an obstacle, it stops and goes in reverse. An IR sensor is used to automatically turn off indicator lights and a buzzer when turning. The buzzer is activated when reversing.
+- All of these features are integrated into the Raspberry Pi Pico. 
+- These data are controlled and monitored through Blynk IOT cloud platform.
